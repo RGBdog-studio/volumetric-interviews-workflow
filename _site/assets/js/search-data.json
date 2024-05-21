@@ -1,0 +1,37 @@
+{"0": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"1": {
+    "doc": "Unity to Touchdesigner workflow",
+    "title": "Unity to Touchdesigner camera workflow - without gaussian splats",
+    "content": ". | Unity . | Packages used | Scene set up | Baking the camera animation | . | Touchdesigner | . ",
+    "url": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/#unity-to-touchdesigner-camera-workflow---without-gaussian-splats",
+    
+    "relUrl": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/#unity-to-touchdesigner-camera-workflow---without-gaussian-splats"
+  },"2": {
+    "doc": "Unity to Touchdesigner workflow",
+    "title": "Unity",
+    "content": "Packages used . | Cinemachine | FBX exporter | . Scene set up . | Set up your Unity scene. Your current scene at least needs a moving camera with a Cinemaching Brain(Camera), a placeholder for the things you want to add in Touchdesigner(volumetric_placeholder) and the objects you want to record in Unity(Objects). | . | Add your animations to the timeline - in this example we used a simple camera blend using Cinemachine to move the camera | . Baking the camera animation . | Right click on our Timeline to add a recorder track | . | I rename this track animation, then right click on the track to add recorder clip | . | repeat step 3 + 4, but now rename the track to mp4 | make sure the length of both recorder clips is the same length as the scene you want to record | . | select animation recorder clip and in inspector change the selected recorder to animation clip. Change GameObject to the camera you want to record the animation of. Set the output location to be inside your Assets folder. | . | now select the RecorderClip of mp4 and select the desired export settings of the Unity scene recording. For now we will keep the placeholder to test if everything works properly. Set the output location. | . | press Play and let the timeline play in full. Both the animation and mp4 recording will be exported. | . | Create a new camera in your scene using the same FOV settings as your main camera. Don’t use a Cinemachine brain. | Drag the .anim file you exported earlier on top of the export camera. It will be added as the animator now. | Disable your main camera, now press Play again to confirm the baked animation is the same as original. | . | right-click on your export camera and select Export to FBX… | . ",
+    "url": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/#unity",
+    
+    "relUrl": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/#unity"
+  },"3": {
+    "doc": "Unity to Touchdesigner workflow",
+    "title": "Touchdesigner",
+    "content": ". | Create a new touchdesigner project and drag your animation .FBX | doubleclick the node to open it | in the animation node go to the Playback tab and turn “use parent animation” off | change play mode to “Locked to Timeline” | . . | drag in your animation video and set Play Mode also to locked to Timeline | . | add the Touchdesigner 3D components you wish to add to your Unity scene recording, in this case it is Volumetrics. Don’t forget to add the same offset as the placeholder in Unity | . Unity and Touchdesigner have an opposite X axis, this means positive numbers turn into negative, and negative into positive. We also have to add -90 degrees to the Y axis . | create a new Null for your camera and use the CHOP Reference of ExportAnim to fill in the transformation and rotation. | . the scale of the animation is imported 100x larger than our touchdesigner file. make sure to add /100 all the transformations to make it fit properly . | connect your null2 to the camera | . | add render and comp nodes and connect everything. it’s done! | . ",
+    "url": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/#touchdesigner",
+    
+    "relUrl": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/#touchdesigner"
+  },"4": {
+    "doc": "Unity to Touchdesigner workflow",
+    "title": "Unity to Touchdesigner workflow",
+    "content": " ",
+    "url": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/",
+    
+    "relUrl": "/docs/tutorials/Unity%20to%20Touchdesigner%20camera%20workflow/"
+  }
+}
