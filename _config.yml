@@ -1,0 +1,22 @@
+title: Volumetric Interview Workflows
+description: by RGBdog
+logo: ""
+theme: just-the-docs
+color_scheme: rgbdog
+url: https://nikilia.github.io/volumetric-interview-workflow/
+has_toc: true
+
+callouts:
+  warning:
+    title: ❗ Warning
+    color: red
+
+collections:
+  tutorials:
+    permalink: "./docs/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    tutorials:
+      name: Tutorials
