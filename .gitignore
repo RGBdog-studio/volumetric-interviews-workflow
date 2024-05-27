@@ -14,3 +14,5 @@ _site/
 .bundle/
 vendor/
 _tutorials/.DS_Store
+_site/.DS_Store
+_site/.DS_Store

@@ -5,6 +5,7 @@ theme: just-the-docs
 color_scheme: rgbdog
 url: https://rgbdog.studio/volumetric-interviews-workflow/
 has_toc: true
+baseurl: /volumetric-interviews-workflow
 
 callouts:
   warning:
