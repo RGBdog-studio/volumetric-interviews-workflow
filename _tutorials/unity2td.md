@@ -29,7 +29,7 @@ description: "Step by step explanation of how to combine gaussian splats and vol
 
 1. Set up your Unity scene. Your current scene at least needs a moving camera with a Cinemaching Brain(Camera), a placeholder for the things you want to add in Touchdesigner(volumetric_placeholder) and the objects you want to record in Unity(Objects).
 
-![Untitled](unity2td/Untitled.png)
+![Untitled]({{ site.baseurl }}/assets/images/unity2td/Untitled.png)
 
 2. Add your animations to the timeline - in this example we used a simple camera blend using Cinemachine to move the camera
 
