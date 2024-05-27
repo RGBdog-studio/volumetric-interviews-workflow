@@ -14,7 +14,7 @@ callouts:
 
 collections:
   tutorials:
-    permalink: "./docs/:collection/:path/"
+    permalink: "./:collection/:path/"
     output: true
 
 just_the_docs:
