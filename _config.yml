@@ -3,9 +3,8 @@ description: by RGBdog
 logo: ""
 theme: just-the-docs
 color_scheme: rgbdog
-url: https://rgbdog.studio/volumetric-interviews-workflow/
+url: https://nikilia.github.io/volumetric-interview-workflow/
 has_toc: true
-baseurl: /volumetric-interviews-workflow
 
 callouts:
   warning:
@@ -14,7 +13,7 @@ callouts:
 
 collections:
   tutorials:
-    permalink: "./:collection/:path/"
+    permalink: "./docs/:collection/:path/"
     output: true
 
 just_the_docs:
@@ -26,3 +25,20 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.3"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Aux links for the upper right navigation
+aux_links:
+  "RGBdog website":
+    - "https://rgbdog.studio/"
+  
+aux_links_new_tab: true
+
+include:
+  - node_modules
+
+after_footer_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js

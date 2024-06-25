@@ -1,22 +1,8 @@
 ---
 layout: default
-title: Unity to Touchdesigner workflow
-description: "Step by step explanation of how to combine gaussian splats and volumetrics using Unity 3D and Touchdesigner"
+title: Volumetric Rendering
 ---
-
-# Unity to Touchdesigner camera workflow - without gaussian splats
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
- ---
+# {{ page.title }}
 
 ## Unity
 
