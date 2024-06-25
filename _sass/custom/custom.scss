@@ -1,0 +1,65 @@
+.side-bar {
+  width:max-content;
+}
+
+@media (min-width: 66.5rem) {
+  .main {
+      margin-left: max(10.5rem,(100% - 66.5rem) / 2 + 16.5rem);
+  }
+}
+
+.toc-link::before {
+    display: inline-block;
+    height: 0 !important;
+    left: 0;
+    margin-top: -1px;
+    position: absolute;
+    width: 2px;
+}
+
+.is-active-link::before {
+    background-color: #0000FF !important;
+}
+
+.main-content ul > li::before {
+  content: none !important;
+}
+
+.js-toc {
+ display: block;
+  padding-bottom: 3rem;
+}
+
+  .js-toc .toc-list {
+    list-style-type: none;
+  font-size: .875rem !important;
+  padding-left: 0;
+  }
+
+  toc-list-item {
+      padding-top: .25rem;
+  padding-bottom: .25rem;
+    display: inline;
+    color: #27262b;
+    text-decoration: none;
+    min-height: 2rem;
+  }
+
+  .js-toc a {
+      min-height: 2rem;
+      line-height: 1.5rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+  }
+
+  .js-toc .is-active-link {
+      text-decoration: none;
+      color: #0000FF;
+  }
+
+  @media (min-width: 66.5rem) {
+  .js-toc {
+      width: 16.5rem;
+  }
+}
+  
