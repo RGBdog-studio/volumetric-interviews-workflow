@@ -42,3 +42,6 @@ include:
 
 after_footer_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
+
+logo: "/assets/images/small-logo.jpg"
+
